@@ -1,0 +1,177 @@
+.monitor-container {
+
+	background-color: #fff;
+	border: solid;
+	border-color: #f1f0f0;
+	/*border-color: #3f89af;*/
+	border-width: 5px;
+	border-radius: 30px;
+	display: block;
+	margin: auto;
+	max-width: 620px;
+	padding: 20px;
+
+}
+
+.monitor-select-wrapper {
+
+	text-align: center;
+	margin: 10px;
+
+}
+
+.monitor-select {
+
+    -moz-appearance:none;
+    -webkit-appearance:none; 
+    appearance:none;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat 95%  #f1f0f0;
+	background-size: 12px 12px;
+	border-radius: 9999px;
+	border: 0px;
+	padding: 10px;
+	text-transform: uppercase; 
+
+
+}
+
+.monitor-buttons-wrapper {
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+
+}
+
+.monitor-button {
+
+	background-color: #f1f0f0;
+	font-weight: bolder;
+	border-width: 2px;
+	border-color: #3f89af;
+	border-radius: 999px;
+	border-style: solid;
+	min-width: 100px;
+	margin: 10px;
+	margin-left: 5px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+    text-transform: uppercase; 
+    cursor: pointer;
+    font-family: sans-serif;
+
+
+
+}
+
+.monitor-button-selected {
+
+	background-color: #3f89af;
+	color: #fff;
+	cursor: pointer;
+	pointer-events: none;
+
+
+}
+
+.monitor-dynamic {
+
+	background-color: #d44248;
+	color: #fff;
+	padding: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 9999px;
+	font-weight: bolder;
+	font-size: 16px;
+	text-transform: uppercase;
+
+}
+
+.monitor-dynamic.state {
+
+	background-color: #fafafa;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 18px;
+	display: none;
+
+}
+
+.monitor-dynamic.date {
+
+	font-size: 12px;
+
+
+}
+
+.monitor-chart-wrapper {
+
+	/*text-align: center;*/
+
+}
+
+.monitor-text {
+
+	line-height: 2;
+}
+
+.monitor-text-data {
+
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 12px;
+
+}
+
+.svg-chart {
+
+	background-color: #fff;
+
+}
+
+.tick-label {
+
+	font-size: 8px;
+
+}
+
+.dot {
+
+	visibility: hidden;
+
+}
+
+.small-multiples {
+
+
+	align-items: center;
+	display: flex;
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.small-svg-holder {
+
+	text-align: center;
+	background-color: #fafafa;
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+
+}
+
+.small-title {
+	text-align: center;
+	font-size: 12px !important;
+	color: #000;
+}
